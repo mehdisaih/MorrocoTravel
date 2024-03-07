@@ -21,7 +21,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            MorrocoTRVL <i className="fab fa-typo3"></i>
+            MOROCCOTRVL <i className="fab fa-typo3"></i>
           </Link>
           <div className='menu-icon' onClick={handleClique}>
             <i className={clique ? 'fa fa-times' : 'fa fa-bars'}></i>

@@ -1,15 +1,54 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home
-   {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('../public/images/Image1.jpg');
+  background-position: auto center;
+  background-size: 100% 100%;  
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  background-image: url('../public/images/Image3.jpg');
+  background-position: auto center;
+  background-size: 100% 100%;  
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sign-up {
+  background-image: url('../public/images/Image5.jpg');
+  background-position: auto center;
+  background-size: 100% 100%;  
+  background-repeat: no-repeat;
+  color: #f1f1f1;
+  font-size: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
